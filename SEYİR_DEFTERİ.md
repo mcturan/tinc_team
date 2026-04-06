@@ -5,6 +5,21 @@
 
 ---
 
+## SON DURUM: FAZ-08 TAMAMLANDI
+**Tarih:** 2026-04-06 20:40
+**Yazan:** seyir_guncelle.sh (otomatik)
+
+### Bu Fazda Ne Yapıldı
+PNOT tam gecis tamamlandi (handlePnot qrveeden kaldirildi, standalone CF kuruldu). OPS FIN Phase 2: createParty, listParties, createAccount, getAccountBalance eklendi.
+
+### Son Commitler
+- qrvee: 3ae8201 — FAZ-08A: handlePnot devre disi — PNOT standalone CF'e tasindi
+- tinc: 0cef784 — FAZ-08: DECISION_LOG — PNOT tam gecis + OPS FIN Phase 2
+- pnot: 31c017f — FAZ-08A: PNOT standalone tam gecis — processPnotEvent, getPnotNotes CF, qrveeEvents guncellendi
+
+
+---
+
 ## SON DURUM: FAZ-07 TAMAMLANDI
 **Tarih:** 2026-04-06 16:22
 **Yazan:** seyir_guncelle.sh (otomatik)
