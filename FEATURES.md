@@ -1,5 +1,5 @@
 # FEATURES — Özellik Takip Listesi
-**Son Güncelleme:** FAZ-05 sonrası (2026-04-06)
+**Son Güncelleme:** FAZ-07 sonrası (2026-04-06)
 Durum: ✅ Tamamlandı (GitHub'da kod var) | 🔄 Devam | ⏳ Beklemede | ❌ Kod yok (spec var) | ⚠️ Spec dışı
 
 ---
@@ -115,6 +115,18 @@ Durum: ✅ Tamamlandı (GitHub'da kod var) | 🔄 Devam | ⏳ Beklemede | ❌ Ko
 | FIN Phase 1 (types, CalculationEngine, CF) | ✅ | FAZ-06 — ops_cases, ops_transactions, ops_ledger |
 | FIN Party/Account CRUD + UI | ⏳ | FAZ-07 |
 | REMIT, TRADE, DOCS | ⏳ | FAZ-08+ |
+
+## MINWIN
+| Özellik | Durum | Not |
+|---------|-------|-----|
+| Vizyon belgeleri | ✅ | MINWIN_VISION.md, minwin_vision.md |
+| Firestore schema (Auction, Offer) | ✅ | FAZ-07 — minwin_auctions, minwin_offers |
+| AuctionValidator (pure, Codex) | ✅ | FAZ-07 — validateNewAuction/Offer, canAcceptOffer |
+| Reverse auction engine (MVP) | ✅ | FAZ-07 — createAuction, submitOffer, acceptOffer |
+| TINC event bus entegrasyonu | ✅ | FAZ-07 — events_minwin, auction.created/submitted/accepted |
+| Expiry scheduler | ⏳ | FAZ-09 |
+| MINWIN UI (web + mobile) | ⏳ | FAZ-10+ |
+| QRVEE Verified Trader entegrasyonu | ⏳ | FAZ-10+ |
 
 ## MARKETİNG
 | Özellik | Durum | Not |
