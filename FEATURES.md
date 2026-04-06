@@ -112,7 +112,9 @@ Durum: ✅ Tamamlandı (GitHub'da kod var) | 🔄 Devam | ⏳ Beklemede | ❌ Ko
 | Özellik | Durum | Not |
 |---------|-------|-----|
 | LEDGER_RULES, CALCULATION_RULES spec | ✅ | |
-| FIN, REMIT, TRADE, DOCS uygulamaları | ⏳ | FAZ 5+ |
+| FIN Phase 1 (types, CalculationEngine, CF) | ✅ | FAZ-06 — ops_cases, ops_transactions, ops_ledger |
+| FIN Party/Account CRUD + UI | ⏳ | FAZ-07 |
+| REMIT, TRADE, DOCS | ⏳ | FAZ-08+ |
 
 ## MARKETİNG
 | Özellik | Durum | Not |
