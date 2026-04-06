@@ -1,5 +1,5 @@
 # FEATURES — Özellik Takip Listesi
-**Son Güncelleme:** FAZ-03 denetimi sonrası
+**Son Güncelleme:** FAZ-05 sonrası (2026-04-06)
 Durum: ✅ Tamamlandı (GitHub'da kod var) | 🔄 Devam | ⏳ Beklemede | ❌ Kod yok (spec var) | ⚠️ Spec dışı
 
 ---
@@ -47,7 +47,7 @@ Durum: ✅ Tamamlandı (GitHub'da kod var) | 🔄 Devam | ⏳ Beklemede | ❌ Ko
 | UIEngine (WidgetRegistry) | ❌ | TINC ZIP'te spec var, kod yok — git'te hiç commit edilmemiş |
 | SubscriptionPool | ❌ | Kod yok |
 | LifecycleState machine | ❌ | Kod yok |
-| WidgetErrorBoundary | ❌ | Genel ErrorBoundary var ama UIEngine'e bağlı değil |
+| WidgetErrorBoundary | ✅ | FAZ-04 implement — tile izolasyonu |
 | useWidgetState hook | ❌ | Kod yok |
 | Dashboard → UIEngine entegrasyonu | ❌ | FAZ 3 hedefi |
 
@@ -69,14 +69,14 @@ Durum: ✅ Tamamlandı (GitHub'da kod var) | 🔄 Devam | ⏳ Beklemede | ❌ Ko
 | Flow Motion (Framer) | ❌ | Spec var, kod yok |
 | Global Pulse | ❌ | Spec var, kod yok |
 | Mascot Engine (5-state machine) | ❌ | TamagotchiCompanion farklı bir implementasyon |
-| Game Launcher + Registry | ❌ | Kod yok |
-| RF Signal Tune | ❌ | Kod yok |
-| RF Propagation | ❌ | Kod yok |
-| RF World | ❌ | Kod yok |
+| Game Launcher + Registry | ✅ | FAZ-05 implement — GameLauncher, GameRegistry |
+| RF Signal Tune | ✅ | FAZ-05 implement — RfSignalTuneGame.tsx |
+| RF Propagation | ⏳ | FAZ-06 — placeholder var |
+| RF World | ⏳ | FAZ-06 — placeholder var |
 | Badge sistemi | ❌ | Kod yok |
 | Quest sistemi | ❌ | Kod yok |
-| Ghost sistemi | ❌ | Kod yok |
-| Challenge modu | ❌ | Kod yok |
+| Ghost sistemi | ✅ | FAZ-05 implement — useGhostStore.ts |
+| Challenge modu | ✅ | FAZ-05 implement — useChallengeStore.ts |
 | useContestStore | ✅ | Contest sistemi — mock data |
 
 ## QRVEE — SPEC DIŞI (Müteahhit Kararı Gerekiyor)
