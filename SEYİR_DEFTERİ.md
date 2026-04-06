@@ -5,6 +5,21 @@
 
 ---
 
+## SON DURUM: FAZ-06 TAMAMLANDI
+**Tarih:** 2026-04-06 15:59
+**Yazan:** seyir_guncelle.sh (otomatik)
+
+### Bu Fazda Ne Yapıldı
+OPS Core FIN Phase 1 tamamlandi. types.ts (7 tip), CalculationEngine.ts (4 pure func: calculateFees/buildTransferLedger/validateLedger/calculateAccountBalance), caseHandler.ts, transferHandler.ts implement edildi. LAW-001 double-entry dogrulamasi aktif (SUM==0). LAW-006 ledger immutable (set-only). Firestore: ops_cases/ops_transactions/ops_ledger. tsc: sifir hata.
+
+### Son Commitler
+- qrvee: 7cbe7f4 — FAZ-05: game-xp-ui — XPToast ve LevelUpOverlay eklendi
+- tinc: fb6c4e0 — FAZ-06: DECISION_LOG — OPS Core FIN Phase 1 kaydi
+- pnot: 1b5d341 — FAZ-04: PNOT standalone functions yapisi kuruldu — types, handler, index
+
+
+---
+
 ## SON DURUM: KURULUM-FINAL TAMAMLANDI
 **Tarih:** 2026-04-06 09:34
 **Yazan:** seyir_guncelle.sh (otomatik)
