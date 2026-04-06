@@ -134,3 +134,12 @@ Durum: ✅ Tamamlandı (GitHub'da kod var) | 🔄 Devam | ⏳ Beklemede | ❌ Ko
 | Landing page (<1sn wow) | ⏳ | FAZ 8 |
 | İsim değişikliği (FOXR adayı) | ⏳ | FAZ 8 — Müteahhit onayı bekliyor |
 | Platform maskotu (antropomorfik tilki) | ⏳ | FAZ 8 |
+
+## FAZ-08 EKLEMELERİ (2026-04-06)
+| Özellik | Durum | Not |
+|---------|-------|-----|
+| PNOT standalone processPnotEvent CF | ✅ | FAZ-08A |
+| PNOT standalone getPnotNotes CF | ✅ | FAZ-08A |
+| qrvee handlePnot devre dışı | ✅ | FAZ-08A — LAW-005 |
+| OPS createParty + listParties | ✅ | FAZ-08B |
+| OPS createAccount + getAccountBalance | ✅ | FAZ-08B — LAW-013 |
