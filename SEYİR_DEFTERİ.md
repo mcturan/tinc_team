@@ -5,6 +5,21 @@
 
 ---
 
+## SON DURUM: KURULUM-FINAL TAMAMLANDI
+**Tarih:** 2026-04-06 09:34
+**Yazan:** seyir_guncelle.sh (otomatik)
+
+### Bu Fazda Ne Yapıldı
+ZORUNLU_BASLIK.md eklendi (21 kanun + roller + tasarim pipeline). SEYİR DEFTERİ kuruldu. Codex CLI fix: --dangerously-bypass-approvals-and-sandbox flag zorunlu, dosya yazmak için codex exec kullanilmali. OPS spec 11 dosya okundu (ARCHITECTURE, DATA_MODEL, LEDGER_RULES, CALCULATION_RULES, EVENT_CONTRACTS, TRANSACTION_MAPPING, VALIDATION_RULES, ENFORCEMENT, DOMAIN, ROADMAP, AI_TASKS).
+
+### Son Commitler
+- qrvee: 7cbe7f4 — FAZ-05: game-xp-ui — XPToast ve LevelUpOverlay eklendi
+- tinc: b502dcd — KURULUM: ZORUNLU_BASLIK.md eklendi — 21 kanun + rol listesi + tasarim pipeline
+- pnot: 1b5d341 — FAZ-04: PNOT standalone functions yapisi kuruldu — types, handler, index
+
+
+---
+
 ## SON DURUM: FAZ-05 TAMAMLANDI
 **Tarih:** 2026-04-06 09:30
 **Yazan:** KURULUM-FINAL (otomatik)
