@@ -143,3 +143,11 @@ Durum: ✅ Tamamlandı (GitHub'da kod var) | 🔄 Devam | ⏳ Beklemede | ❌ Ko
 | qrvee handlePnot devre dışı | ✅ | FAZ-08A — LAW-005 |
 | OPS createParty + listParties | ✅ | FAZ-08B |
 | OPS createAccount + getAccountBalance | ✅ | FAZ-08B — LAW-013 |
+
+## FAZ-10 EKLEMELERİ (2026-04-11)
+| WAVL Landing page (Gemini HTML) | ✅ | FAZ-10 |
+| Landing Next.js components (Codex) | ✅ | FAZ-10 — 11 dosya |
+| WAVLEE SVG maskot | ✅ | FAZ-10 — EVA robot baykuş |
+| Accordion banner | ✅ | FAZ-10 |
+| Stats count-up | ✅ | FAZ-10 |
+| 7 feature section | ✅ | FAZ-10 |
